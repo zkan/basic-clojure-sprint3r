@@ -70,7 +70,7 @@ x
 ; https://www.4clojure.com/problem/35
 ; https://www.4clojure.com/problem/36
 
-; apply
+; apply -- turn a list of arguments to single value arguments
 (defn var-args [& args]
   (println args))
 (var-args "A" "B" "C")
