@@ -166,6 +166,9 @@ c
 (update-in {:a {:b [{:z 1} {:y {:x 10}}]}} [:a :b 1 :y :x] #(if (odd? %) (inc %) (dec %)))
 (assoc-in [1 {:a [2 {:b 3}]}] [1 :a] 4)
 
+; [1 {:a [2 {:b 3}]}] => [1 {:a [2 {:b 4}]}]
+(update-in [1 {:a [2 {:b 3}]}] [1 :a 1 :b] inc)
+
 ; Set
 #{1 2}
 (conj #{1 2} 3)
