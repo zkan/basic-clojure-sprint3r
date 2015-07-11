@@ -225,7 +225,11 @@ c
 ; https://www.4clojure.com/problem/13
 ; https://www.4clojure.com/problem/17
 ; https://www.4clojure.com/problem/18
+
+#(second (reverse %))
 ; https://www.4clojure.com/problem/20
+
+partition-by #(identity %)
 ; https://www.4clojure.com/problem/31
 
 
