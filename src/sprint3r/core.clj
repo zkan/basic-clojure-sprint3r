@@ -103,7 +103,6 @@ x
     (do (println "False")
         (println ":("))))
 (ifs true)
-(ifs true)
 (ifs false)
 
 ; Vector
