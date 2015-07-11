@@ -213,6 +213,7 @@ c
 (butlast [1 2 3 4 5])
 (partition-by #(= 3 %) [1 2 3 4 5])
 (partition 4 (range 18))
+(partition-all 4 (range 18))
 (sort-by :age [{:name "David" :age 36} {:name "Michael" :age 40} {:name "David" :age 25}])
 (ffirst [[8 9] [7 5]])
 (frequencies ['a 'b 'a 'a])
