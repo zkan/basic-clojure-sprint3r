@@ -51,6 +51,7 @@ x
 (#(+ 1 %) 2)
 (#(+ 1 %1 %2) 2 3)
 (#(println %&) 5 6 7 8)
+(#(* % 2) 3)
 
 ; _ for don't care
 (defn print-second [_ a] (println a))
