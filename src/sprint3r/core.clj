@@ -193,6 +193,7 @@ c
 ; Lazy Seq
 (range 5)
 (take 3 (range 5))
+(take 3 (range))
 (take 5 (iterate inc 10))
 
 ; Some useful functions
